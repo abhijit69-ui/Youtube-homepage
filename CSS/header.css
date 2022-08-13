@@ -1,6 +1,5 @@
 .header{
     height: 55px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -72,7 +71,6 @@
 .upload-icon-container .tooltip,
 .youtubeapps-icon-container .tooltip,
 .notification-icon-container .tooltip{
-    font-family: Roboto, Arial;
     position: absolute;
     background-color: gray;
     color: white;
@@ -139,7 +137,6 @@ So the pseudo class is used in seacrh button and then tooltip class */
     right: -5px;
     background-color: rgb(200, 0, 0);
     color: white;
-    font-family: Roboto, Arial;
     font-size: 11px;
     padding: 2px 5px;
     border-radius: 10px;
