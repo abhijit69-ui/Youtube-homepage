@@ -10,6 +10,7 @@
     right: 0;
     background-color: white;
     border-bottom: 1px solid rgb(228, 228, 228);
+    z-index: 100;
 }
 
 .left-section{
@@ -87,6 +88,22 @@
 }
 .notification-icon{
     height: 24px;
+}
+
+.notification-icon-container{
+    position: relative;
+}
+
+.notifications-count{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding: 2px 5px;
+    border-radius: 10px;
 }
 .current-user-pic{
     height: 32px;
