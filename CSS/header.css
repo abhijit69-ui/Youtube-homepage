@@ -58,7 +58,9 @@
 
 .search-btn,
 .voice-search-btn,
-.upload-icon-container{
+.upload-icon-container,
+.youtubeapps-icon-container,
+.notification-icon-container{
     position: relative;
     display: flex;
     justify-content: center;
@@ -67,7 +69,9 @@
 
 .search-btn .tooltip,
 .voice-search-btn .tooltip,
-.upload-icon-container .tooltip{
+.upload-icon-container .tooltip,
+.youtubeapps-icon-container .tooltip,
+.notification-icon-container .tooltip{
     font-family: Roboto, Arial;
     position: absolute;
     background-color: gray;
@@ -86,7 +90,9 @@
 So the pseudo class is used in seacrh button and then tooltip class */
 .search-btn:hover .tooltip,
 .voice-search-btn:hover .tooltip,
-.upload-icon-container:hover .tooltip{
+.upload-icon-container:hover .tooltip,
+.youtubeapps-icon-container:hover .tooltip,
+.notification-icon-container:hover .tooltip{
     opacity: 1;
 }
 
